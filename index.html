@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ふーちんのフラッシュ暗算ページ</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./favicon.png">
+</head>
+<body>
+  <h1>ふーちんの<br>フラッシュ暗算</h1>
+  <p>
+    <input type="number" class="set" value="1" id="keta"> 桁 
+    <input type="number" class="set" value="5" id="nums"> 口 
+    <input type="number" class="set" value="1.0" id="between"> 表示時間（秒）
+  </p>
+  <div id="Qdiv">
+    <p id="question"></p>
+  </div>
+  <p>
+    <button id="start">開始</button>
+    <input type="number" id="answer" placeholder="答えを入力">
+    <button id="submit">回答</button>
+  </p>
+  <p id="result"></p>
+  <audio id="frash">
+    <source src="./frash.mp3" type="audio/mp3">
+  </audio>
+  <script src="./calc.js"></script>
+</body>
+</html>

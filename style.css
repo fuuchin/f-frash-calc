@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  height: 2.4rem;
+  width: 4rem;
+  font-size: 18px;
+}
+
+.set {
+  font-size: 28px;
+  width: 3.5rem;
+  height: 2rem;
+}
+
+#answer {
+  height: 2rem;
+  width: 7rem;
+  font-size: 18px;
+}
+
+#Qdiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+#question {
+  padding-top: 40px;
+  width: 300px;
+  height: 150px;
+  font-size: 80px;
+  font-family: cursive;
+  background: #111;
+  border: 5px solid #0a0;
+  border-radius: 7px;
+  color: #0f0;
+}
