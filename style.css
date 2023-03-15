@@ -27,6 +27,8 @@ button {
 }
 
 #question {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding-top: 40px;
   width: 300px;
   height: 150px;
